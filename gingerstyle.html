@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <!-- Nav bar -->
+  <div class="nav" id="Topnav">
+    <a href="index.html">HOME</a>
+    <a href="style.html">ABOUT US</a>
+    <a href="gallery.html">PHOTO GALLERY</a>
+    <a href="gingerstyle.html">CONTACT US</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>
+    </div>
+    <!-- End nav bar -->
+
+    <!-- Heading Start  -->
+    <title>-Contact Us-</title>
+    <!--  Heading End-->
+
+    <!-- Location and Number Start-->
+    <p class="header"> -Contact Us-</p>
+    <p class="whitetxt">  Phone Number: 360-808-5820</p>
+    <p class="whitetxt">Location: </p>
+    <p class="whitetxt">50 SW Bond Street, Suite 102</p>
+    <p class="whitetxt">Bend OR 97702</p>
+    <p class="whitetxt">Located in The Box Factory</p>
+    <!--  Location and Number End-->
+
+    <!-- Image Beginning-->
+    <a href="https://www.google.com/maps/place/50+SW+Bond+St+%23102,+Bend,+OR+97702/@44.0510416,-121.3172126,17.1z/data=!4m5!3m4!1s0x54b8c62c216c4757:0x784363667ccd921f!8m2!3d44.0510303!4d-121.3152132" target="_blank">
+      <img class="contact" src="STUDIOQSCREENSHOT.jpg" alt=”map” title=”LOCATION” height=”100” width=”120px>
+    </a>
+    <!--  Image End-->
+    <br><br>
+    <!-- Start javascript for top nav -->
+    <script>
+    function myFunction() {
+      var x = document.getElementById("Topnav");
+      if (x.className === "nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav";
+      }
+    }
+  </script>
+  <!-- End javascript for nav -->
+</body>
+</html>

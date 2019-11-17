@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>About Us</title>
+</head>
+<body>
+  <!-- Nav bar -->
+  <div class="nav" id="Topnav">
+    <a href="index.html">HOME</a>
+    <a href="style.html">ABOUT US</a>
+    <a href="gallery.html">PHOTO GALLERY</a>
+    <a href="gingerstyle.html">CONTACT US</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>
+    </div>
+    <!-- End nav bar -->
+
+    <!-- start title -->
+    <p class="header">-About Us-</p>
+    <!-- end title -->
+
+    <!--  Style for staff info    -->
+    <div class="aboutimage">
+
+      <div class="flex-container">
+        <!-- Angela's staff info -->
+        <div class="flex-content"><img class="staffimage" src="download.png">
+          <p class="staff">Angela Quall</p>
+          <p class="staffbio">Owner / Master Stylist</p>
+          <p class="staffbio">STAFF BIO:</p>
+          <p class="staffbio">I am the founder of Studio Q, as well as the head stylist here. I specialize in layering hair, but I can do really anything the customer wants. I use Kevin Murphy products.</p>
+          <p class="staffbio">PHONE: 541-420-7371</p>
+          <p class="staffbio">INSTAGRAM: @Angelaquall</p>
+        </div>
+        <!-- end Angela's staff info -->
+        <!-- Ruth's staff info -->
+        <div class="flex-content"><img class="staffimage" src="download.png">
+          <p class="staff">Ruth Dahlen</p>
+          <p class="staffbio">Stylist</p>
+          <p class="staffbio">STAFF BIO:</p>
+          <p class="staffbio">I am one of the stylists here at Studio Q. I specialize in layering hair, but I can really do anything the customer wants or needs. I use Kevin Murphy products.</p>
+          <p class="staffbio">PHONE: 360-808-5820</p>
+          <p class="staffbio">INSTAGRAM: @Ruthdahlen</p>
+        </div>
+        <!-- end Ruth's staff info -->
+        <!-- Jen's style -->
+        <div class="flex-content"><img class="staffimage" src="download.png">
+          <p class="staff">Jen Maxwell</p>
+          <p class="staffbio">Stylist</p>
+          <p class="staffbio">STAFF BIO:</p>
+          <p class="staffbio">I am one of the stylists here at Studio Q. I specialize in layering hair, but I can really do anything the customer wants or needs. I use Verb and Goldwell products.</p>
+          <p class="staffbio">PHONE: 541-350-1545</p>
+          <p class="staffbio">INSTAGRAM: @Jenmaxwell</p>
+        </div>
+        <!-- end Jen's style -->
+      </div>
+    </div>
+    <!-- End style for staff info -->
+
+    <!-- Start javascript for top nav -->
+    <script>
+    function myFunction() {
+      var x = document.getElementById("Topnav");
+      if (x.className === "nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav";
+      }
+    }
+    </script>
+    <!-- End javascript for nav -->
+
+  </body>
+  </html>
